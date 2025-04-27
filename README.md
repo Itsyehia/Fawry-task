@@ -1,6 +1,5 @@
-# 📄 README.md
+#  README.md
 
-```markdown
 # mygrep.sh
 
 A simple Bash script that mimics basic functionality of the `grep` command:
