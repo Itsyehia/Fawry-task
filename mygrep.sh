@@ -97,3 +97,15 @@ while IFS= read -r line; do
     fi
   fi
 done < "$file"
+
+
+
+Screenshot 1 – dig failing with system DNS, succeeding with 8.8.8.8.
+
+Screenshot 2 – Editing /etc/hosts or fixing DNS, then dig now succeeds.
+
+Screenshot 3 – nc -zv internal.example.com 80 succeeds.
+
+Screenshot 4 – Browser or curl -I http://internal.example.com returns 200 OK.
+
+Screenshot 5 – ss -tlnp on the server shows the listener on 0.0.0.0:80.
